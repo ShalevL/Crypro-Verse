@@ -19,5 +19,8 @@ installation instructions
 ![](https://github.com/ShalevL/Crypro-Verse/blob/main/screenshots/9.png)
 ![](https://github.com/ShalevL/Crypro-Verse/blob/main/screenshots/10.png)
 ![](https://github.com/ShalevL/Crypro-Verse/blob/main/screenshots/11.png)
-
+![](https://github.com/ShalevL/Crypro-Verse/blob/main/screenshots/12.png)
+![](https://github.com/ShalevL/Crypro-Verse/blob/main/screenshots/13.png)
+![](https://github.com/ShalevL/Crypro-Verse/blob/main/screenshots/14.png)
+![](https://github.com/ShalevL/Crypro-Verse/blob/main/screenshots/15.png)
 
