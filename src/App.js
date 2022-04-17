@@ -89,9 +89,8 @@ function App() {
             level={5}
             style={{ color: "white", textAlign: "center" }}
           >
-            Cryptoverse
+            Cryptoverse By Shalev Lazarof
             <br />
-            All rights reserverd
           </Typography.Title>
           <Space>
             <Link to="/">Home</Link>
