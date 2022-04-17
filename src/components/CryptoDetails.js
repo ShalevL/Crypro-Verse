@@ -87,8 +87,7 @@ function CryptoDetails() {
         method: "GET",
         headers: {
           "X-RapidAPI-Host": "coinranking1.p.rapidapi.com",
-          "X-RapidAPI-Key":
-            "8996225c5amsh21e7eaef7c64fbbp108f8ajsn2d3edfece8fe",
+          "X-RapidAPI-Key": "",
         },
       };
 
@@ -96,8 +95,7 @@ function CryptoDetails() {
         method: "GET",
         headers: {
           "X-RapidAPI-Host": "coinranking1.p.rapidapi.com",
-          "X-RapidAPI-Key":
-            "8996225c5amsh21e7eaef7c64fbbp108f8ajsn2d3edfece8fe",
+          "X-RapidAPI-Key": "",
         },
       };
 

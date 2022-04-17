@@ -34,7 +34,7 @@ export function fetchCryptoData(count) {
       method: "GET",
       headers: {
         "X-RapidAPI-Host": "coinranking1.p.rapidapi.com",
-        "X-RapidAPI-Key": "8996225c5amsh21e7eaef7c64fbbp108f8ajsn2d3edfece8fe",
+        "X-RapidAPI-Key": "",
       },
     };
     fetch(
@@ -62,7 +62,7 @@ export function fetchNewsData(searchByCryptoCoin) {
       headers: {
         "X-BingApis-SDK": "true",
         "X-RapidAPI-Host": "bing-news-search1.p.rapidapi.com",
-        "X-RapidAPI-Key": "8996225c5amsh21e7eaef7c64fbbp108f8ajsn2d3edfece8fe",
+        "X-RapidAPI-Key": "",
       },
     };
 
