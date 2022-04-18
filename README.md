@@ -6,9 +6,8 @@ installation instructions
 1. Download zip and extract project folder
 2. Open terminal and navigate to project folder
 3. run npm install
-4. insert Coinranking API key in store/index.js line 37 & in CryptoDetails.js line 90,98
-5. insert Bing News Search API key in store/index.js line 65
-6. run npm start
+4. insert COIN_RANKING_API_KEY & BING_NEWS_SEARCH_API_KEY in store/index.js line 3,4 
+5. run npm start
 
 ![](https://github.com/ShalevL/Crypro-Verse/blob/main/screenshots/1.png)
 ![](https://github.com/ShalevL/Crypro-Verse/blob/main/screenshots/2.png)
