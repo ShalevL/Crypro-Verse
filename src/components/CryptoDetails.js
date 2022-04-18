@@ -16,6 +16,7 @@ import {
 import { useEffect, useState } from "react";
 import { Option } from "antd/lib/mentions";
 import LineChart from "./LineChart";
+import { COIN_RANKING_API_KEY } from "./store";
 
 function CryptoDetails() {
   const { coinId } = useParams();
@@ -83,25 +84,17 @@ function CryptoDetails() {
 
   useEffect(
     function () {
-      const options1 = {
+      const options = {
         method: "GET",
         headers: {
           "X-RapidAPI-Host": "coinranking1.p.rapidapi.com",
-          "X-RapidAPI-Key": "",
-        },
-      };
-
-      const options2 = {
-        method: "GET",
-        headers: {
-          "X-RapidAPI-Host": "coinranking1.p.rapidapi.com",
-          "X-RapidAPI-Key": "",
+          "X-RapidAPI-Key": COIN_RANKING_API_KEY,
         },
       };
 
       fetch(
         `https://coinranking1.p.rapidapi.com/coin/${coinId}?referenceCurrencyUuid=yhjMzLPhuIDl&timePeriod=24h`,
-        options1
+        options
       )
         .then(function (response) {
           if (!response.ok) {
@@ -114,7 +107,7 @@ function CryptoDetails() {
 
           return fetch(
             `https://coinranking1.p.rapidapi.com/coin/${coinId}/history?referenceCurrencyUuid=yhjMzLPhuIDl&timePeriod=${timePeriod}  `,
-            options2
+            options
           );
         })
         .then(function (response) {

@@ -1,5 +1,8 @@
 import { createSlice, configureStore } from "@reduxjs/toolkit";
 
+export const COIN_RANKING_API_KEY = "";
+export const BING_NEWS_SEARCH_API_KEY = "";
+
 const currentCryptoSlice = createSlice({
   name: "currentCryptoSlice",
   initialState: { coins: [], stats: {} },
@@ -34,7 +37,7 @@ export function fetchCryptoData(count) {
       method: "GET",
       headers: {
         "X-RapidAPI-Host": "coinranking1.p.rapidapi.com",
-        "X-RapidAPI-Key": "",
+        "X-RapidAPI-Key": COIN_RANKING_API_KEY,
       },
     };
     fetch(
@@ -62,7 +65,7 @@ export function fetchNewsData(searchByCryptoCoin) {
       headers: {
         "X-BingApis-SDK": "true",
         "X-RapidAPI-Host": "bing-news-search1.p.rapidapi.com",
-        "X-RapidAPI-Key": "",
+        "X-RapidAPI-Key": BING_NEWS_SEARCH_API_KEY,
       },
     };
 
