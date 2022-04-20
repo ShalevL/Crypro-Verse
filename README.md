@@ -1,6 +1,16 @@
 Crypto-Verse By Shalev Lazarof. 
 
-React, Redux & Ant Design.
+https://crypto-verse-shalev-lazarof.netlify.app/homePage
+
+Get all the latest information of all crypto coins such as news, rank, currency etc.
+
+Frameworks & Design: React | Redux | Ant Design 
+
+API’s
+1. Coinranking
+https://rapidapi.com/Coinranking/api/coinranking1/
+2. Bing News Search
+https://rapidapi.com/microsoft-azure-org-microsoft-cognitive-services/api/bing-news-search1/
 
 installation instructions
 1. Download zip and extract project folder
